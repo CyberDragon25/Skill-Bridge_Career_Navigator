@@ -1,0 +1,26 @@
+ALEX CHEN
+alex@example.com
+
+EDUCATION  
+Tech University - Computer Science - 2025
+
+TECHNICAL SKILLS
+Java, C++, Python, JavaScript, SQL, MongoDB, AWS, Docker, Kubernetes, React, Node.js, TypeScript, GraphQL, CI/CD, Git
+
+EXPERIENCE
+SWE Intern - Amazon - 2024
+- Built microservices using Java and Spring Boot
+- Deployed to AWS using Docker and Kubernetes  
+- Implemented CI/CD pipelines with Jenkins
+
+SWE Intern - Google - 2023
+- Developed features for Google Cloud Platform
+- Used Go and Python
+- Worked with distributed systems
+
+PROJECTS
+- Cloud-native application with Docker/K8s
+- Distributed chat application
+- Real-time analytics dashboard
+
+Strong candidate with comprehensive skills across cloud, backend, and full-stack.

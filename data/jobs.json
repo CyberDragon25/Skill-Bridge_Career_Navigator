@@ -1,0 +1,32 @@
+{
+  "Cloud Engineer": {
+    "required_skills": ["Python", "AWS", "Docker", "Kubernetes", "Linux", "Terraform", "CI/CD"],
+    "nice_to_have": ["Go", "Ansible", "Jenkins"],
+    "description": "Design and maintain scalable cloud infrastructure"
+  },
+  "Full Stack Developer": {
+    "required_skills": ["JavaScript", "React", "Node.js", "SQL", "Git", "REST APIs", "HTML", "CSS"],
+    "nice_to_have": ["TypeScript", "GraphQL", "MongoDB"],
+    "description": "Build end-to-end web applications"
+  },
+  "DevOps Engineer": {
+    "required_skills": ["Docker", "Kubernetes", "CI/CD", "AWS", "Python", "Linux", "Git"],
+    "nice_to_have": ["Jenkins", "Terraform", "Ansible"],
+    "description": "Automate deployment and infrastructure management"
+  },
+  "Data Engineer": {
+    "required_skills": ["Python", "SQL", "Spark", "AWS", "ETL", "Airflow"],
+    "nice_to_have": ["Kafka", "Snowflake", "dbt"],
+    "description": "Build and maintain data pipelines"
+  },
+  "Backend Developer": {
+    "required_skills": ["Python", "Java", "SQL", "REST APIs", "Git", "Microservices"],
+    "nice_to_have": ["Docker", "Redis", "PostgreSQL"],
+    "description": "Develop server-side application logic"
+  },
+  "Machine Learning Engineer": {
+    "required_skills": ["Python", "Machine Learning", "TensorFlow", "PyTorch", "SQL", "AWS"],
+    "nice_to_have": ["Kubernetes", "MLOps", "Spark"],
+    "description": "Build and deploy ML models at scale"
+  }
+}

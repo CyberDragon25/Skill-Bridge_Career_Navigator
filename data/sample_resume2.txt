@@ -1,0 +1,24 @@
+JANE SMITH
+jane.smith@email.com
+
+EDUCATION
+State University - BS Computer Science - May 2025
+
+SKILLS
+Python, Java, SQL, Git, HTML, CSS, React
+
+EXPERIENCE
+Software Development Intern - Tech Startup - Summer 2024
+- Built web features using React and Flask
+- Worked with PostgreSQL database
+- Used Git for version control
+
+PROJECTS
+- E-commerce website using React frontend and Python backend
+- Data visualization tool with matplotlib
+- Simple REST API with Flask
+
+COURSES
+Intro to Programming, Web Development, Database Design, Data Structures
+
+

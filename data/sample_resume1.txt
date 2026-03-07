@@ -1,0 +1,43 @@
+SUBHAM BHATTACHARYA
+subham@example.com | LinkedIn | GitHub
+
+EDUCATION
+Iowa State University - Bachelor of Science in Computer Science
+Graduated: December 2025
+GPA: 3.5/4.0
+
+TECHNICAL SKILLS
+Languages: Python, Java, C++, JavaScript, Kotlin
+Frameworks: React, Node.js, Express, Flask, Android Jetpack Compose
+Databases: MongoDB, SQL, PostgreSQL
+Tools: Git, Docker, VS Code, Android Studio, Linux
+
+EXPERIENCE
+
+Software Engineering Intern | Qualcomm | Summer 2024
+- Developed kernel-level CPU latency benchmarking library in C/C++
+- Implemented IOCTL-based communication for user-space to kernel-space interaction
+- Designed priority-based thread scheduling with core affinity
+- Technologies: C++, Windows Driver Framework, WinDbg
+
+Tech Lead - Android | Google Developer Student Club | 2023-2025
+- Taught 30+ students Android development using Kotlin and Jetpack Compose
+- Designed curriculum covering MVVM architecture and REST API integration
+- Technologies: Kotlin, Android, Jetpack Compose
+
+PROJECTS
+
+Cyflix | Full-Stack Video Streaming App
+- Built MERN stack application with JWT authentication
+- Integrated TMDB REST API for dynamic movie rendering
+- Technologies: MongoDB, Express, React, Node.js, REST APIs
+
+FindRight | Service Marketplace Android App  
+- Architected front-end for two-sided marketplace
+- Implemented RESTful API integration and CI/CD pipeline
+- Technologies: Java, Android, GitLab CI/CD, REST APIs
+
+COURSEWORK
+Data Structures, Algorithms, Database Systems, AI, Object-Oriented Programming, Web Development
+
+
