@@ -1,17 +1,40 @@
-from src.gap_analyzer import analyze_gap
+from src.gap_analyzer import analyze_gap_for_role
 
-def test_gap_analysis_identifies_missing_skills():
-    resume_skills = ["Python", "Docker", "Linux"]
-    required_skills = ["Python", "AWS", "Docker", "Linux"]
-    nice_to_have = ["Terraform"]
 
-    result = analyze_gap(resume_skills, required_skills, nice_to_have)
+TEST_JOBS = [
+    {
+        "id": "cloud-001",
+        "title": "Junior Cloud Engineer",
+        "role": "Cloud Engineer",
+        "required_skills": ["AWS", "Linux", "Python", "Docker"],
+        "nice_to_have_skills": ["Terraform", "CI/CD"],
+    },
+    {
+        "id": "cloud-002",
+        "title": "Cloud Platform Engineer",
+        "role": "Cloud Engineer",
+        "required_skills": ["AWS", "Linux", "Kubernetes", "CI/CD"],
+        "nice_to_have_skills": ["Terraform", "Bash"],
+    },
+]
 
-    assert "AWS" in result["missing_skills"]
+
+def test_gap_analysis_identifies_missing_required_skills():
+    candidate_skills = ["Python", "Docker", "Linux"]
+
+    result = analyze_gap_for_role(candidate_skills, TEST_JOBS, "Cloud Engineer")
+
     assert "Python" in result["matching_skills"]
-    assert result["match_percentage"] == 75.0
+    assert "Linux" in result["matching_skills"]
 
-    def test_gap_analysis_handles_empty_required_skills():
-        result = analyze_gap(["Python"], [], [])
-        assert result["match_percentage"] == 0
-        assert result["missing_skills"] == []
+    missing_names = [item["skill"] for item in result["missing_skills"]]
+    assert "AWS" in missing_names
+    assert result["match_percentage"] == 50.0
+
+
+def test_gap_analysis_handles_missing_role():
+    result = analyze_gap_for_role(["Python"], TEST_JOBS, "Data Analyst")
+
+    assert result["match_percentage"] == 0
+    assert result["missing_skills"] == []
+    assert result["matching_skills"] == []

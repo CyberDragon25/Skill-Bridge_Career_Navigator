@@ -3,6 +3,7 @@
     "id": "cloud-001",
     "title": "Junior Cloud Engineer",
     "role": "Cloud Engineer",
+    "description": "Support cloud infrastructure, monitor deployments, and automate operational tasks.",
     "required_skills": ["AWS", "Linux", "Python", "Docker"],
     "nice_to_have_skills": ["Terraform", "CI/CD"],
     "level": "Entry"
@@ -11,16 +12,99 @@
     "id": "cloud-002",
     "title": "Cloud Platform Engineer",
     "role": "Cloud Engineer",
+    "description": "Maintain scalable cloud environments and delivery pipelines for internal services.",
     "required_skills": ["AWS", "Linux", "Kubernetes", "CI/CD"],
     "nice_to_have_skills": ["Terraform", "Bash"],
+    "level": "Entry"
+  },
+  {
+    "id": "cloud-003",
+    "title": "Site Reliability Associate",
+    "role": "Cloud Engineer",
+    "description": "Improve service reliability using observability, automation, and container tooling.",
+    "required_skills": ["Linux", "Docker", "Kubernetes", "Python"],
+    "nice_to_have_skills": ["AWS", "Terraform"],
+    "level": "Entry"
+  },
+  {
+    "id": "backend-001",
+    "title": "Backend Engineer I",
+    "role": "Backend Engineer",
+    "description": "Build backend APIs, services, and integrations for user-facing products.",
+    "required_skills": ["Python", "SQL", "REST APIs", "Git"],
+    "nice_to_have_skills": ["Docker", "AWS"],
+    "level": "Entry"
+  },
+  {
+    "id": "backend-002",
+    "title": "Platform Backend Developer",
+    "role": "Backend Engineer",
+    "description": "Develop microservices and maintain internal platform integrations.",
+    "required_skills": ["Java", "SQL", "Microservices", "Git"],
+    "nice_to_have_skills": ["Docker", "CI/CD"],
+    "level": "Entry"
+  },
+  {
+    "id": "backend-003",
+    "title": "API Engineer",
+    "role": "Backend Engineer",
+    "description": "Design service endpoints, connect data stores, and improve API performance.",
+    "required_skills": ["Node.js", "REST APIs", "PostgreSQL", "Git"],
+    "nice_to_have_skills": ["Docker", "AWS"],
     "level": "Entry"
   },
   {
     "id": "sec-001",
     "title": "Junior Security Analyst",
     "role": "Security Analyst",
+    "description": "Support alert triage, incident analysis, and basic detection workflows.",
     "required_skills": ["Linux", "Python", "SQL", "Git"],
     "nice_to_have_skills": ["AWS", "Docker"],
+    "level": "Entry"
+  },
+  {
+    "id": "sec-002",
+    "title": "SOC Analyst I",
+    "role": "Security Analyst",
+    "description": "Monitor logs, investigate suspicious activity, and document response actions.",
+    "required_skills": ["Linux", "Python", "REST APIs", "Git"],
+    "nice_to_have_skills": ["AWS", "Bash"],
+    "level": "Entry"
+  },
+  {
+    "id": "sec-003",
+    "title": "Security Automation Associate",
+    "role": "Security Analyst",
+    "description": "Create small automations to improve security investigations and reporting.",
+    "required_skills": ["Python", "Git", "Linux", "Bash"],
+    "nice_to_have_skills": ["Docker", "CI/CD"],
+    "level": "Entry"
+  },
+  {
+    "id": "data-001",
+    "title": "Data Analyst I",
+    "role": "Data Analyst",
+    "description": "Analyze business data, create dashboards, and communicate trends to stakeholders.",
+    "required_skills": ["SQL", "Python", "Git", "Airflow"],
+    "nice_to_have_skills": ["Snowflake", "dbt"],
+    "level": "Entry"
+  },
+  {
+    "id": "data-002",
+    "title": "Analytics Engineer Associate",
+    "role": "Data Analyst",
+    "description": "Prepare transformed datasets and support reporting pipelines for internal teams.",
+    "required_skills": ["SQL", "Python", "dbt", "Git"],
+    "nice_to_have_skills": ["Snowflake", "Airflow"],
+    "level": "Entry"
+  },
+  {
+    "id": "data-003",
+    "title": "Business Intelligence Analyst",
+    "role": "Data Analyst",
+    "description": "Build recurring analyses, dashboards, and metrics definitions across teams.",
+    "required_skills": ["SQL", "Python", "REST APIs", "Git"],
+    "nice_to_have_skills": ["Snowflake", "AWS"],
     "level": "Entry"
   }
 ]

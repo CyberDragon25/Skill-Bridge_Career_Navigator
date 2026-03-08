@@ -29,7 +29,7 @@ SKILL_ALIASES = {
     "Git": ["git", "github"],
     "Linux": ["linux", "ubuntu"],
     "Bash": ["bash", "shell scripting"],
-    "REST APIs": ["rest api", "restful api", "api development"],
+    "REST APIs": ["rest api", "rest apis", "restful api", "api development"],
     "GraphQL": ["graphql"],
     "Microservices": ["microservices", "microservice architecture"],
     "Spark": ["spark", "apache spark"],
@@ -120,3 +120,7 @@ def extract_skills(text: str, known_skills: list[str], use_ai: bool = True) -> d
         "method": "fallback",
         "confidence": "medium" if skills else "low"
     }
+
+def merge_text_sources(*texts: str) -> str:
+    parts = [t.strip() for t in texts if t and t.strip()]
+    return "\n\n".join(parts)
