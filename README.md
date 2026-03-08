@@ -3,6 +3,7 @@
 **Candidate Name:** Subham Bhattacharya  
 **Scenario Chosen:** Skill-Bridge Career Navigator  
 **Estimated Time Spent:** ~6 hours
+**Youtube Video Link:** https://youtu.be/rZD-PVohfWM
 
 SkillBridge Career Navigator is a Streamlit-based prototype that helps a student or early-career candidate understand how their current skills align with a target role. The app ingests a synthetic resume or supplemental PDF, extracts technical skills with an AI-first pipeline, compares them against a synthetic job dataset, estimates role fit with a lightweight ML classifier, and generates an actionable learning roadmap.
 
