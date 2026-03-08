@@ -1,6 +1,6 @@
 # Skill-Bridge_Career_Navigator# SkillBridge Career Navigator
 
-Candidate Name: Subham Bhattacharya  
+**Candidate Name:** Subham Bhattacharya  
 Scenario Chosen: Skill-Bridge Career Navigator  
 Estimated Time Spent: ~6 hours
 
